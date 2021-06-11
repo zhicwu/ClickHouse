@@ -2,7 +2,7 @@ version: '2.3'
 services:
   bridge1:
     image: yandex/clickhouse-jdbc-bridge
-    command: |
+    command: 
       /bin/bash -c 'cat << EOF > config/datasources/self.json
       {
         "self": {
